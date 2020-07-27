@@ -20,19 +20,18 @@ Even using platform, Liquidity providers can manage pools like they can deposit 
  
 Platform also saves trade transaction history and provides all transaction details in a single place in platform.
 
-## How was it made?
-
-I have used Chainlink Oracles and Uniswap-V2 protocol to build automated trading platform. AutoTrade is supporting a trading crypto pair using Uniswap smart contract and for fetch latest price feed from chainlink oracles. So, Using platform liquidity providers can add and remove liquidity and traders can perform trade using smart contract. 
-
-Platform is using web3.js library to interact eith smart contracts. 
-
-I used Next.js and Semantic UI react to design the frontend. And for saving the trade transaction history, I write node.js API and saves history in mongodb database.
-
-
 # Video Demo
 
 https://youtu.be/cn7UgN33Ys8  
 [![Chainlink+Uniswap](ChainlinkUni.png)](https://youtu.be/cn7UgN33Ys8 "AutoTrade")
+
+## How was it made?
+
+I have used Chainlink Pricing refrence Oracles and Uniswap-V2 protocol to build automated trading platform. AutoTrade is supporting a trading crypto pair using Uniswap smart contract and for fetch latest price feed from chainlink oracles. So, Using platform liquidity providers can add and remove liquidity and traders can perform trade using smart contract. 
+
+Platform is using web3.js library to interact eith smart contracts. 
+
+I used Next.js and Semantic UI react to design the frontend. And for saving the trade transaction history, I write node.js API and saves history in mongodb database.
 
 ## How to run
 
