@@ -18,7 +18,7 @@ const Trade = ({
     <div className="card trade">
       <h3>Automate Trade</h3>
       <div className="form-field">
-        <label>Select Pair</label>
+        <label><b>Select Pair</b></label>
         <Dropdown
           placeholder="Select pair tokens.."
           className="form-control"
@@ -30,7 +30,7 @@ const Trade = ({
         />
       </div>
       <div className="form-field">
-        <label>Value</label>
+        <label><b>Value</b></label>
         <Input
           className="pair-input form-control"
           label={(
@@ -55,7 +55,7 @@ const Trade = ({
 
       </div>
       <div className="form-field">
-        <label>Amount out</label>
+        <label><b>Amount out</b></label>
         <Input
           type="input"
           className="form-control"
@@ -67,7 +67,7 @@ const Trade = ({
         />
       </div>
       <div className="form-field">
-        <label>Chainlink Rate</label>
+        <label><b>Chainlink Rate</b></label>
         <Input
           type="input"
           className="form-control"
@@ -80,7 +80,7 @@ const Trade = ({
         {/* <label className="total">total will see here</label> */}
       </div>
       <div className="form-field">
-        <label>Slippage Rate %</label>
+        <label><b>Slippage Rate %</b></label>
         <Input
           type="input"
           className="form-control"

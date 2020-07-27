@@ -24,7 +24,7 @@ const Liquidity = ({
         <div className="add-liquidity card">
           <h3>Add Liquidity</h3>
           <div className="form-field">
-            <label>Pair tokens</label>
+            <label><b>Pair tokens</b></label>
             <Dropdown
               className="liquidity-pairs form-control"
               value={addLiquidityPair}
@@ -36,7 +36,7 @@ const Liquidity = ({
             />
           </div>
           <div className="form-field">
-            <label>token0</label>
+            <label><b>{liquidityToken0 || "Token-0"}</b></label>
             <Input
               type="input"
               // labelPosition="right"
@@ -49,7 +49,7 @@ const Liquidity = ({
             <label className="total">Total {liquidityToken0} Balance: {amountInBalanceText1}({amountInBalanceText1/1000000000000000000}) in WEI</label>
           </div>
           <div className="form-field">
-            <label>token1</label>
+            <label><b>{liquidityToken1 || "Token-1 "} (Price comes from Chainlink price-feed)</b></label>
             <Input
               type="input"
               fluid
@@ -94,7 +94,7 @@ const Liquidity = ({
           <h3>Remove Liquidity</h3>
           <div className="pool-wrapper">
             <div className="form-field ">
-              <label>token0</label>
+            <label><b>Uni-V2-{removeTokenPair || "Pair"}</b></label>
               <Input
                 label={(
                   <Dropdown

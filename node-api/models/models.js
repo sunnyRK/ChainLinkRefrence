@@ -28,5 +28,5 @@ const TransactionSchema = new Schema({
     },
 });
 
-const Chainlink = mongoose.model("TradingDatabase",TransactionSchema);
+const Chainlink = mongoose.model("AutoTradeDatabase",TransactionSchema);
 module.exports = Chainlink;

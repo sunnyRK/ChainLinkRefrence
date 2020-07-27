@@ -209,7 +209,7 @@ class TradeContainer extends Component {
                     };
 
                     // Axios.post('https://instcrypt-node-api.herokuapp.com/api/createProgram', models)
-                    Axios.post('https://instcrypt-node-api.herokuapp.com/api/createTrade', models)
+                    Axios.post('https://instcrypt-node-api.herokuapp.com/api/createLinkTrade', models)
                       .then((res) => {
                         if (res.statusText == 'OK') {
                         } else {
